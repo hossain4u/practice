@@ -1,0 +1,31 @@
+Task: Create a Simple Library Management System
+Requirements:
+
+Book Class:
+Properties: title, author, publicationYear, isAvailable
+
+Methods: borrow(), returnBook(), isAvailable()
+
+Library Class:
+Property: books (a list of Book objects)
+
+Methods: addBook(), removeBook(), searchBookByTitle(), searchBookByAuthor()
+Main Function:
+
+Create a Library object.
+Add some books to the library.
+Allow the user to borrow and return books.
+Display the available books.
+Additional Considerations:
+
+You can implement a system to track the borrower's name for each borrowed book.
+Consider adding a feature to calculate overdue fines for books that are not returned on time.
+Example Output:
+
+Available Books:
+1. The Lord of the Rings
+2. Pride and Prejudice
+3. To Kill a Mockingbird
+This task incorporates OOP concepts by defining classes with properties and methods,
+representing real-world entities (books and a library). It also demonstrates the use of
+object relationships and interactions.
